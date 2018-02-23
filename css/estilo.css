@@ -1,0 +1,40 @@
+#div1 {
+padding: 1em;
+font-family: verdana;
+font-size: 16px;
+color: #C83060;
+background-color: #000;
+text-align: center;
+}
+#div2 {
+padding: 1em;
+font-family: fantasy;
+font-size: 20px;
+color: #41F1FA;
+background-color: #CC1010;
+border: 3px solid #F2C130;
+text-align: center;
+}
+#p1 {
+padding: 1em;
+font-family: verdana;
+font-size: 16px;
+color: #FFF;
+background-color: #000;
+text-align: center;
+}
+#fume {
+background-color: #010101;
+}
+#copyright {
+margin-top: 10em;
+background-color: #010101;
+font-family: arial;
+font-size: 10px;
+text-align: center;
+color: #FFF;
+}
+#imagem {
+padding: 1em;
+text-align: center;
+}
