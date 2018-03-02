@@ -1,40 +1,108 @@
+/* Ids para Divs*/
 #div1 {
-padding: 1em;
-font-family: verdana;
-font-size: 16px;
-color: #C83060;
-background-color: #000;
-text-align: center;
+	padding: 1em;
+	font-family: verdana;
+	font-size: 16px;
+	color: #C83060;
+	background-color: #000;
+	text-align: center;
 }
 #div2 {
-padding: 1em;
-font-family: fantasy;
-font-size: 20px;
-color: #41F1FA;
-background-color: #CC1010;
-border: 3px solid #F2C130;
-text-align: center;
+	padding: 1em;
+	font-family: fantasy;
+	font-size: 20px;
+	color: #41F1FA;
+	background-color: #CC1010;
+	border: 3px solid #F2C130;
+	text-align: center;
 }
-#p1 {
-padding: 1em;
-font-family: verdana;
-font-size: 16px;
-color: #FFF;
-background-color: #000;
-text-align: center;
+#div3 {
+	padding: 1em;
+	font-family: verdana;
+	font-size: 15px;
+	color: #000;
+	background-color: #f90;
+	border: 2px solid gray;
+	text-align: center;
 }
+
+/* Ids de Miscelânea*/
+#copyright {
+	margin-top: 10em;
+	background-color: #010101;
+	font-family: arial;
+	font-size: 10px;
+	text-align: center;
+	color: #FFF;
+}
+#imagem {
+	padding: 1em;
+	text-align: center;
+}
+#sidebarR {
+	padding: 1%;
+	padding-right: 30%;
+	background-color: #f90;
+	border: 2px solid #AAA;
+	text-align: center;
+	font-family: verdana;
+	font-size: 15px;
+	color: #41A1FA;
+}
+#articulo {
+	padding: 1em;
+	font-family: verdana;
+	font-size: 12px;
+	color: #000;
+	background-color: #f90;
+	border: 2px solid gray;
+	text-align: center;
+}
+
+/* Classes */
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+.place {
+	background-color: #FFF;
+	color: #111;
+	font-family: verdana;
+	border: 2px solid #AAA;
+	text-align: center;
+}
+
+/* Fontes */
+#p12 {
+	font-size: 12px;
+}
+#p16 {
+	font-size: 16px;
+}
+#p20 {
+	font-size: 20px;
+}
+#p22 {
+	font-size: 22px;
+}
+#link {
+	color: #2c88a7;
+	font-weight: bold;
+}
+#h1a {
+	color: #20C3FC;
+	font-family: arial;
+	font-weight: bold;
+}
+#h1a:hover {
+	color: #FFF;
+	font-family: arial;
+}
+
+/* Cores De Fundo*/
 #fume {
 background-color: #010101;
 }
-#copyright {
-margin-top: 10em;
-background-color: #010101;
-font-family: arial;
-font-size: 10px;
-text-align: center;
-color: #FFF;
-}
-#imagem {
-padding: 1em;
-text-align: center;
+#amarelo-pastel {
+background-color: #FFFFA0;
 }
