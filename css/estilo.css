@@ -61,38 +61,48 @@
 
 /* Classes */
 .container {
-	margin: 0 auto;
-	width: 960px;
+	margin: 0;
+	width: 100;
 }
-.place {
+#place {
 	background-color: #FFF;
 	color: #111;
 	font-family: verdana;
 	border: 2px solid #AAA;
 	text-align: center;
+	width: 660px;
+	float: left;
 }
+#place img {
+	border: 1px solid #c7c7c7;
+	width: 620px;
+	height: 380px;
+	padding: 2px;
+}
+menu {
+	font-family: verdana;
+	font-size: 16px;
+	background-color: #FFFBE4;
+	border: 1px solid #C9BC8F;
+	padding: 10px;
+	float: right;
+}
+  .sidebar h3 {
+  	font-size: 14px;
+  	font-family: verdana;
+  	margin-top: 0;
+  }
+  .sidebar ol {
+  	font-size: 12px;
+  	font-family: verdana;
+  }
 
 /* Fontes */
-#p12 {
-	font-size: 12px;
-}
-#p16 {
-	font-size: 16px;
-}
-#p20 {
-	font-size: 20px;
-}
-#p22 {
-	font-size: 22px;
-}
-#link {
-	color: #2c88a7;
-	font-weight: bold;
-}
 #h1a {
 	color: #20C3FC;
 	font-family: arial;
 	font-weight: bold;
+	text-align: center;
 }
 #h1a:hover {
 	color: #FFF;
@@ -100,9 +110,26 @@
 }
 
 /* Cores De Fundo*/
-#fume {
-background-color: #010101;
-}
 #amarelo-pastel {
 background-color: #FFFFA0;
+}
+#foot {
+	background-color: #000;
+	color: #FFF;
+	font-size: 14px;
+	font-family: arial black;
+	text-align: center;
+	height: 20px;
+	clear: both;
+	border: 2px solid #AAA;
+	float: bottom;
+}
+#verde {
+	font-size: 25px;
+	font-family: arial;
+	text-align: center;
+	background-color: #008800;
+	color: #EEEEEE;
+	padding: 1em;
+	clear: both;
 }
