@@ -79,6 +79,27 @@
 	height: 330px;
 	padding: 2px;
 }
+#jeep {
+	background-color: #2011C9;
+	color: #f90;
+	font-family: verdana;
+	border: 2px solid #f90;
+	text-align: center;
+	width: 660px;
+	float: left;
+}
+	#jeep img {
+		border: 1px solid #c7c7c7;
+		width: 620px;
+		height: 300px;
+		padding: 2px;
+}
+	#jeep a {
+		color: white;
+		font-family: verdana;
+		text-align: center;
+	}
+
 menu {
 	font-family: verdana;
 	font-size: 16px;
@@ -87,15 +108,6 @@ menu {
 	padding: 10px;
 	float: right;
 }
-  .sidebar h3 {
-  	font-size: 14px;
-  	font-family: verdana;
-  	margin-top: 0;
-  }
-  .sidebar ol {
-  	font-size: 12px;
-  	font-family: verdana;
-  }
 
 /* Fontes */
 #h1a {
@@ -125,6 +137,7 @@ background-color: #FFFFA0;
 	float: bottom;
 }
 #verde {
+	border: 2px solid #c7c7c7
 	font-size: 25px;
 	font-family: arial;
 	text-align: center;
