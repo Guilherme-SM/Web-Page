@@ -8,6 +8,60 @@
 	<link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
 </head>
 <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Navegação</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="file:///C:/Users/Senai/dev/Web-Page/guia.html">Guia</a></li>
+        <li class="active"><a href="file:///C:/Users/Senai/dev/Web-Page/formulario.html">Formulário<span class="sr-only">(current)</span></a></li>
+        <li><a href="file:///C:/Users/Senai/dev/Web-Page/index.html">Index</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Guia<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Pesquisa">
+        </div>
+        <button type="submit" class="btn btn-default">Pesquisar</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
 	<form>
 		<fieldset>
 			<legend>Identificação Pessoal</legend>
@@ -23,19 +77,36 @@
 			<input type="radio" name="gender" value="M" checked>Masculino<br>
 			<input type="radio" name="gender" value="F">Feminino<br>
 			<input type="radio" name="gender" value="?">Outro<br>
-
 		</fieldset>
 		<fieldset>
 			<legend>Seleção</legend>
-			<select name="vehicles">
+			<select name="brand">
 				<option value="jeep">Jeep Compass</option>
 				<option value="honda">Honda Civic</option>
 				<option value="toyota">Toyota Corolla</option>
 				<option value="audi">Audi A4</option>
+				<option value="citroen">Citroën C3</option>
+				<option value="uno">Uno Millie Way</option>
+				<option value="hyundai">Hyundai HB 20</option>
+				<option value="vw">Volkswagen Gol</option>
+				<option value="chevrolet">Chevrolet Cruze</option>
+			</select>
 				<input type="radio" name="transmission" value="Manual" checked>Manual
 				<input type="radio" name="transmission" value="Auto">Automático<br>
 		</fieldset>
+		<fieldset>
+			<legend>Informações do Automóvel</legend>
+			<label form="Sobrenome">Placa</label>
+			<input type="text" name="plate" placeholder="XXX-9999">
+
+			<label form="Sobrenome">Renavam: </label>
+			<input type="text" name="renavam" placeholder="Numero Renavam"><br><br>
+
+			<label form="Sobrenome">Ano</label>
+			<input type="number" name="year" placeholder="2000">
+		</fieldset>
 		<input type="submit" value="Enviar">
 	</form>
+</div>
 </body>
 </html>
