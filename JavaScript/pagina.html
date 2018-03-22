@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript</title>
+	<script type="text/javascript" src="funcoes.js"></script>
+	<link rel="stylesheet" href="proto.css">
+</head>
+<body>
+<div id="formato">
+	<h3> Tabuada do 8</h3>
+	<script>
+		var tabuada = 8;
+		
+		for (var i = 1; i <= 10; i++) {
+			
+			document.write( tabuada + " x " + i + " = "+ tabuada * i );
+			pulalinha();
+		}
+		function pulalinha(){
+			document.write("<br>")
+		}
+		function soma (num1, num2){
+			var somar = num1 + num2;
+			return somar;
+		}
+		
+		function divisao (div1, div2){
+			var dividir = div1 / div2;
+			return dividir;
+		}
+		
+		function multiplicacao (mult1, mult2){
+			var multiplicar = mult1 * mult2;
+			return multiplicar;
+		}
+		
+		function subtracao (sub1, sub2){
+			var subtrair = sub1 - sub2;
+			return subtrair;
+		}
+		document.write("A soma dos valores é "+ soma(9,2));
+		pulalinha();
+		document.write("A divisão dos valores é "+ divisao(9,2));
+		pulalinha();
+		document.write("A multiplicação dos valores é "+ multiplicacao(9,2));
+		pulalinha();
+		document.write("A subtração dos valores é "+ subtracao(9,2));
+	</script>
+</div>
+</body>
+</html>
